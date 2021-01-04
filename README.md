@@ -23,7 +23,7 @@ java -jar javabackend.jar [port=%number%] ...
 ```
 
 
-###### Example
+### Example
 `java -jar javabackend.jar port=80 client=./client`
 
 Opens a server on the default web port. The client param
