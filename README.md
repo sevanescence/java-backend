@@ -6,6 +6,14 @@ A simple web back-end built with java.net
 - Java Runtime Environment 32 or 64 bit (1.8 or later)
 - 1GB Free RAM
 
+### What I Learned
+Before dabbling in backend development with java.net, I have stuck with NodeJS
+for nearly a year. In my time building apps with Node, I sort of took the
+abstractedness of the language, and the Express server framework, for granted.
+Building even a simple web server with java.net opened my eyes to just how
+versatile, expansive, and bare-bones web development can be, and what I can do
+with my knowledge. I hope this sample projects helps you as well. :)
+
 ## Startup Arguments:
 
 ### Arguments
