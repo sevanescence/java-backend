@@ -21,10 +21,9 @@ with my knowledge. I hope this sample projects helps you as well. :)
 ```
 java -jar javabackend.jar [port=%number%] ...
 ```
-### Example
-```
-java -jar javabackend.jar port=80 client=./client
-```
+Example: `java -jar javabackend.jar port=80 client=./client`
+
+
 Opens a server on the default web port. The client param
 implies that the client folder is in the same directory as
 the backend. The project structure would look something like:
