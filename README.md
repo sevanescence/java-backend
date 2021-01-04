@@ -2,8 +2,8 @@
 A simple web back-end built with java.net
 
 
-Starup Arguments:
--
+## Starup Arguments:
+
 ### Arguments
 ```
 java -jar javabackend.jar [port=%number%] ...
