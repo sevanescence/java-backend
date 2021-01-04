@@ -20,7 +20,7 @@ java -jar javabackend.jar [port=%number%] ...
 | `cors=%string%` | " " | Origins to enable CORS with the Access-Control-Allow-Origin header. Set to '*' to enable all origins. More about CORS at  https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS |
 
 ```cmd
-java -jar javabackend.jar [port=<number>] [client=<path>] [cors=<string>]
+java -jar javabackend.jar [port=%number%] [client=%path%] [cors=%string%]
 
   port=%number%        Server port. Note that this port not
    default: 80         default to 443 on an HTTPS connection.
