@@ -4,11 +4,11 @@ A simple web back-end built with java.net
 
 Starup Arguments:
 -
-##### Arguments
+### Arguments
 ```
 java -jar javabackend.jar [port=%number%] ...
 ```
-##### Argument Usage
+### Argument Usage
 | Argument | Usage  |
 | :--- | :--- |
 | port=%number% | Server port. Note that this port not default to 443 on an HTTPS connection. |
