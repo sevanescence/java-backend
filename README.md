@@ -57,7 +57,7 @@ You would set the client param to `client=../client`
 ```cmd
 java -jar javabackend.jar [port=%number%] [client=%path%] [cors=%string%]
 
-  port=%number%        Server port. Note that this port not
+  port=%number%        Server port. Note that this port will not
    default: 80         default to 443 on an HTTPS connection.
 
   client=%path%        Absolute path of your client folder.
@@ -71,7 +71,7 @@ java -jar javabackend.jar [port=%number%] [client=%path%] [cors=%string%]
                        folder with the file protocol.
 
   cors=%string%        Origins to enable CORS with the
-   default: " "        ccess-Control-Allow-Origin header.
+   default: " "        Access-Control-Allow-Origin header.
                        Set to '*' to enable all origins.
                        More about CORS at 
                        https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS
