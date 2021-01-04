@@ -2,7 +2,7 @@
 A simple web back-end built with java.net
 
 
-## Starup Arguments:
+## Startup Arguments:
 
 ### Arguments
 ```
