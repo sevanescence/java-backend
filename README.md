@@ -58,7 +58,7 @@ You would set the client param to `client=../client`
 java -jar javabackend.jar [port=%number%] [client=%path%] [cors=%string%]
 
   port=%number%        Server port. Note that this port will not
-   default: 80         default to 443 on an HTTPS connection.
+   default: 3000       default to 443 on an HTTPS connection.
 
   client=%path%        Absolute path of your client folder.
    default: "/"        All requests made from the home page
