@@ -52,10 +52,10 @@ directory (i.e. `java -jar backend/javabackend.jar client=%CD%/client`).
 java -jar javabackend.jar [port=%number%] [client=%path%] [cors=%string%]
 
   port=%number%        Server port. Note that this port will not
-   default: 3000       default to 443 on an HTTPS connection.
+                       default to 443 on an HTTPS connection.
 
   client=%path%        Absolute path of your client folder.
-   default: "/"        All requests made from the home page
+                       All requests made from the home page
                        at the default endpoint will be
                        redirected to this path. If your
                        backend and client folder are in the
@@ -65,7 +65,7 @@ java -jar javabackend.jar [port=%number%] [client=%path%] [cors=%string%]
                        folder with the file protocol.
 
   cors=%string%        Origins to enable CORS with the
-   default: " "        Access-Control-Allow-Origin header.
+                       Access-Control-Allow-Origin header.
                        Set to '*' to enable all origins.
                        More about CORS at 
                        https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS
