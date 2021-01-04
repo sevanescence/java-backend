@@ -23,7 +23,8 @@ java -jar javabackend.jar [port=%number%] ...
 ```
 
 
-Example: `java -jar javabackend.jar port=80 client=./client`
+###### Example
+`java -jar javabackend.jar port=80 client=./client`
 
 Opens a server on the default web port. The client param
 implies that the client folder is in the same directory as
