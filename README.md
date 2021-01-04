@@ -1,12 +1,12 @@
 # java-backend
 A simple web back-end built with java.net
 
-### System Requirements
+## System Requirements
 - Operating System should not matter, as long as Java is installed.
 - Java Runtime Environment 32 or 64 bit (1.8 or later)
 - 1GB Free RAM
 
-### What I Learned
+## What I Learned
 Before dabbling in backend development with java.net, I have stuck with NodeJS
 for nearly a year. In my time building apps with Node, I sort of took the
 abstractedness of the language, and the Express server framework, for granted.
