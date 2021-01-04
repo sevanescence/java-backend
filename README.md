@@ -3,7 +3,7 @@ A simple web back-end built with java.net
 
 ### System Requirements
 - Java Runtime Environment 32 or 64 bit (1.8 or later)
-- \>1GB Free RAM
+- 1GB Free RAM
 - Operating System should not matter, as long as Java is installed.
 
 ## Startup Arguments:
