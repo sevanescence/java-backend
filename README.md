@@ -24,7 +24,7 @@ java -jar javabackend.jar [port=%number%] ...
 
 
 ### Example
-`java -jar javabackend.jar port=80 client=./client`
+`java -jar javabackend.jar port=80 client=%CD%/client`
 
 Opens a server on the default web port. The client param
 implies that the client folder is in the same directory as
@@ -45,7 +45,7 @@ your/folder/
     └───index.html
     └───styles.css
 ```
-You would set the client param to `client=../client`
+Setting `client=%CD%/client` would still work.
 
 ### Argument Usage
 | Argument | Default | Usage |
