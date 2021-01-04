@@ -36,16 +36,10 @@ your/folder
     └───index.html
     └───styles.css
 ```
-If you want your server to look like this instead:
-```
-your/folder/
-├───backend
-│   └───javabackend.jar
-└───client
-    └───index.html
-    └───styles.css
-```
-Setting `client=%CD%/client` would still work.
+Note that it's best practice to launch your backend
+from the root directory of your server to avoid
+having to play parkour with setting your client
+directory (i.e. `java -jar backend/javabackend.jar client=%CD%/client`).
 
 ### Argument Usage
 | Argument | Default | Usage |

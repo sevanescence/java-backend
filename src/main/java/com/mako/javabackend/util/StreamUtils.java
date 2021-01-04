@@ -6,6 +6,27 @@ import java.nio.file.Paths;
 
 public abstract class StreamUtils {
 
+    public static File findHomeInDirectory(File file) {
+        assert file.isDirectory();
+        File[] files = file.listFiles(new IndexFileFilter());
+        if (files == null || files.length < 1)
+            return null;
+        return files[0];
+    }
+
+    public static byte[] writeFileToBytes(String path) throws IOException {
+        File file = new File(path);
+        if (file.isDirectory())
+            file = StreamUtils.findHomeInDirectory(file);
+        if (file == null)
+            return new byte[0];
+        InputStream is = new FileInputStream(file);
+        byte[] bytes = new byte[(int) file.length()];
+        is.read(bytes);
+        is.close();
+        return bytes;
+    }
+
     public static BufferedReader createBufferedReader(String path) throws FileNotFoundException {
         File file = new File(path);
         if (file.isDirectory()) {
